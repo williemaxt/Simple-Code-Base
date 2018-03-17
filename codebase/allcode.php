@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>CODE BASE</title>
+      <link rel="stylesheet" href="main.css">
   </head>
   <body>
       <h1>These Are Your Codes</h1>
-    <a href="index.php">Return 
-        Home</a>
+    <a id="returnBtn" href="index.php">ADD CODE</a>
       <br>
       <?php
       include_once 'connection.php';
@@ -24,13 +24,11 @@
     
     if ($resultCheck > 0){
         while ($row = mysqli_fetch_assoc($result)){
-            echo "<br/>";
-            echo $row['title'];
-            echo "<br/>";
-            echo $row['commit_date'];
-            echo "<br/>";
-            echo $row['body'];
-            echo "<br/>";
+            echo '<div class="snippet">';
+            echo "<h3>" . $row['title'] ."</h3>" ;
+            echo "<h5>" . $row['commit_date'] . "</h5>";
+            echo "<p>" . $row['body'] . "</p>";
+            echo '</div>';
         }
     }
     //this ends the non mandetory section for checking data
