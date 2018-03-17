@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 nav{
     height: 50px;
     background: #333333;
@@ -13,7 +14,14 @@ nav{
 }
 body{
     background: #c0c0c0;
+    background-image: url(blured.jpg);
+    background-size: cover;
     margin: 0;
+}
+body h1{
+    color: #ffffff;
+    font-size: 2.5em;
+    font-family: 'Fredoka One', cursive;
 }
 form input{
     margin: 0 auto;
@@ -36,8 +44,18 @@ h1{
 }
 
 /*BUTTON GROUP*/
-a{
+
+#allcode h1{
+    background: #ffffff;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    color: #333333;
     float: right;
-    height: 200px;
-    width: 200px;
+}
+#allcode img{
+    width: 100px;
+    height: auto;
+    margin: 20px;
 }
