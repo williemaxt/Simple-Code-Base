@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One');
 nav{
     height: 50px;
     background: #333333;
@@ -58,4 +59,44 @@ h1{
     width: 100px;
     height: auto;
     margin: 20px;
+}
+/*this is for the all code page*/
+.snippet{
+    width: 80%;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.snippet h3{
+    color: #333333;
+    margin: 0;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'Fredoka One', cursive;
+}
+.snippet h5{
+    color: #333333;
+    margin: 0;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+.snippet p{
+    font-family: 'Poiret One', cursive;
+    margin: 0;
+    background: #333333;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 3px;
+}
+#returnBtn{
+    text-decoration: none;
+    background: #333333;
+    color: #ffffff;
+    padding: 10px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    font-family: 'Fredoka One', cursive;
 }
