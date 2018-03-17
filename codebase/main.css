@@ -36,14 +36,8 @@ h1{
 }
 
 /*BUTTON GROUP*/
-#button-group{
-    list-style: none;
-    width: 100%;
-    margin: 0 auto;
-}
-#button-group li{
-    display: inline-block;
-}
-#button-group button{
-    width: 100%;
+a{
+    float: right;
+    height: 200px;
+    width: 200px;
 }
