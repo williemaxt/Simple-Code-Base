@@ -17,14 +17,11 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<h1>611 Code Base</h1>
+<h1>CODE BASE</h1>
     <a id="allcode" href="allcode.php">
-        <button>+</button>
+        <img src="icon-menu.png">
     </a>
 <?php include ("body.php");?>
 
 </body>
 </html>
-
-
-
