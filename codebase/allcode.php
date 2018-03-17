@@ -1,3 +1,4 @@
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -23,6 +24,11 @@
     
     if ($resultCheck > 0){
         while ($row = mysqli_fetch_assoc($result)){
+            echo "<br/>";
+            echo $row['title'];
+            echo "<br/>";
+            echo $row['commit_date'];
+            echo "<br/>";
             echo $row['body'];
             echo "<br/>";
         }
